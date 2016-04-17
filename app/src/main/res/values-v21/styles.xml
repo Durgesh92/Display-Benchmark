@@ -1,0 +1,29 @@
+<resources>>
+
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/button_normal</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:navigationBarColor">@color/navigationBarcolor</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Rotation" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#1f870c</item>
+        <item name="colorPrimaryDark">#1f870c</item>
+        <item name="colorAccent">#1f870c</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="colorButtonNormal">#1f870c</item>
+        <item name="android:navigationBarColor">#1f870c</item>
+    </style>
+
+</resources>

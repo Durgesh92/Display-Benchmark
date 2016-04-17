@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Rotation"
+            android:title="Rotation" />
+        <item
+            android:id="@+id/Brightness"
+            android:title="Brightness" />
+        <item
+            android:id="@+id/Resolution"
+            android:title="Resolution" />
+        <item
+            android:id="@+id/Density"
+            android:title="Density" />
+    </group>
+
+    <item android:title="Pixel Operations">
+        <menu>
+            <item
+                android:id="@+id/Bitmap_pixel_format"
+                android:title="Bitmap Pixel Format" />
+            <item
+                android:id="@+id/Image_format"
+                android:title="Image Formats" />
+            <item
+                android:id="@+id/Opengl_pixel_format"
+                android:title="Opengl Pixel Formats" />
+            <item
+                android:id="@+id/Camera_image_format"
+                android:title="Camera Image Formats" />
+            <item
+                android:id="@+id/Alpha_blending"
+                android:title="Alpha Blending" />
+        </menu>
+    </item>
+
+    <item android:title="Advanced Operations">
+        <menu>
+            <item
+                android:id="@+id/Clear_log"
+                android:title="Clear Log" />
+            <item
+                android:id="@+id/Restart_hardware_composer"
+                android:title="Restart Hardware Composer" />
+            <item
+                android:id="@+id/Reboot"
+                android:title="Reboot" />
+        </menu>
+    </item>
+
+</menu>

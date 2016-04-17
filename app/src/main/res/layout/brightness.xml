@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Brightness"
+            android:id="@+id/button_brightness"
+            android:textColor="#ffffff"
+            android:layout_alignBottom="@+id/editText_brightness"
+            android:layout_toRightOf="@+id/editText_brightness"
+            android:layout_toEndOf="@+id/editText_brightness" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText_brightness"
+            android:layout_marginTop="167dp"
+            android:layout_marginLeft="100dp"
+            android:layout_alignParentTop="true" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_brightness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</LinearLayout>
